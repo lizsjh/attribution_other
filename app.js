@@ -72,7 +72,7 @@ botui.message.add({
     return botui.message.add({
         delay:700,
         loading: true,
-        content:'Got it. Could you input your order number below?'
+        content:'Could you input your order number below?'
     });
 }).then(function(){
     return botui.action.text({
@@ -125,7 +125,7 @@ botui.message.add({
     return botui.message.add({
         delay:700,
         loading: true,
-        content:'Alright. I will process your request. Please hold on for a moment.'
+        content:'I will process your request. Please hold on for a moment.'
     });
 }).then(function(){
     return botui.message.add({
