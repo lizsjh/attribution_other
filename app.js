@@ -68,7 +68,7 @@ botui.message.add({
     return botui.message.add({
         delay:3000,
         loading: true,
-        content:'The server of the retailer was temporarily down, and I could not retrieve information from the retailer.'
+        content:'The server of the restaurant was temporarily down, and I could not retrieve information from the restaurant.'
     });
 }).then(function(){
     return botui.message.add({
